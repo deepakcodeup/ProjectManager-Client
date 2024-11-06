@@ -44,7 +44,7 @@ function SideBar({ showPopupModal }) {
 				<div className={styles.brand}>
 					<h3>
 						<span onClick={() => navigate("/dashboard")}>
-							<img src="logo.svg" alt="logo" /> Pro Manage
+							<img src="codesandbox.png" alt="logo" /> Pro Manage
 						</span>
 					</h3>
 				</div>
