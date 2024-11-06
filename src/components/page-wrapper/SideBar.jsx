@@ -15,12 +15,6 @@ const navItems = [
 		key: "board",
 	},
 	{
-		name: "Projects",
-		route: "/projects",
-		logo: <MdOutlineSpaceDashboard />,
-		key: "board",
-	},
-	{
 		name: "Analytics",
 		logo: <FiDatabase />,
 		route: "/analytics",

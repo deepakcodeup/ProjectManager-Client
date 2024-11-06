@@ -11,7 +11,6 @@ import Analytics from "./pages/Analytics.jsx";
 import Settings from "./pages/Settings.jsx";
 import Spinner from "./components/Spinner.jsx";
 import ViewTask from "./pages/ViewTask.jsx";
-import Projects from "./pages/Projects.jsx";
 
 function App() {
 	const [loading, setLoading] = useState(true);
@@ -81,15 +80,7 @@ function App() {
 							</AuthCheck>
 						}
 					/>
-					<Route
-						path="/projects"
-						element={
-							<AuthCheck authentication>
-								{" "}
-								<Projects />
-							</AuthCheck>
-						}
-					/>
+			
 					<Route
 						path="/settings"
 						element={
